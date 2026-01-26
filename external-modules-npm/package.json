@@ -1,0 +1,20 @@
+{
+  "name": "external-modules-npm",
+  "version": "1.0.0",
+  "description": "this is npm testing project",
+  "license": "ISC",
+  "author": "\"Siam Ahmed\"",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "siam": "node hello.js",
+    "dev": "nodemon colors.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "random-fruits-name": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
